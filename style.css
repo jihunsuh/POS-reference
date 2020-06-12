@@ -1,0 +1,160 @@
+body {
+  display: inline-block;
+  width: 99%;
+  height: 97.5vh;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 1) 0%, rgba(255, 182, 248, 1) 100%);
+  min-width: 1100px;
+}
+
+#w7 {
+  width: 69.5%;
+  height: 97.5vh;
+  border: 2px solid white;
+  float: left;
+}
+
+#w3 {
+  width: 29.5%;
+  height: 97.5vh;
+  border: 3px solid white;
+  float: left;
+}
+
+#h9 {
+  height: 89.5%;
+  border: 1px solid white;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+#h9::-webkit-scrollbar {
+  display: none;
+}
+
+#h1 {
+  position: absolute;
+  bottom: 0px;
+  height: 9.5vh;
+  border: 2.8px solid white;
+  text-align: center;
+  line-height: 9.5vh;
+  font-size: 40px;
+  background-color: #e8b6ff;
+  min-height: 60px;
+}
+
+#menu {
+  height: 100%;
+  border: 2px solid white;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+#menu::-webkit-scrollbar {
+  display: none;
+}
+
+#h3 {
+  height: 29.5%;
+  border: 1px solid #ffb6f8;
+  background-color: rgba(0, 212, 255, 0.4);
+}
+
+#menu ul {
+  display: inline-block;
+  list-style: none;
+}
+
+#menu li {
+  border: 5px solid #ffb6f8;
+  background-color: #bbf6ff;
+  width: 175px;
+  height: 175px;
+  border-radius: 20px;
+  float: left;
+  margin: 21px;
+  opacity: 1;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+#menu li:hover {
+  opacity: 0.8;
+}
+
+.many_less {
+  width: 250px;
+  height: 100px;
+  line-height: 100px;
+  border: 5px solid #bbf6ff;
+  border-radius: 50px;
+  background-color: #ffb6f8;
+  text-align: center;
+  margin: 50px;
+  font-size: 30px;
+  float: left;
+  color: black;
+}
+
+#h9 ul {
+  list-style: none;
+}
+
+#h9 li {
+  width: 80%;
+  min-width: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 5px solid #ffb6f8;
+  background-color: #bbf6ff;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200%;
+  display: flex;
+  padding: 15px;
+}
+
+.amount {
+  width: 50px;
+  float: right;
+  border: 5px solid #e8b6ff;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  z-index: 2;
+  background-color: white;
+}
+
+#totalPrice {
+  float: right;
+  margin-right: 50px;
+}
+
+.increase,
+.decrease {
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+  border: 5px solid #b6caff;
+  z-index: 1;
+  background-color: #e8b6ff;
+}
+.decrease {
+  margin-left: auto;
+  margin-right: -25px;
+  text-align: left;
+  padding-left: 10px;
+}
+.increase {
+  margin-right: 0px;
+  margin-left: -25px;
+  text-align: right;
+  padding-right: 10px;
+}
