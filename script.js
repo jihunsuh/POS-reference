@@ -45,6 +45,7 @@ let menu = {
       decamt.textContent = "-";
       decamt.classList.add("decrease");
       decamt.onclick = function(e) {
+        e.preventDefault();
         e.stopPropagation();
         this.decrease(i);
         this.print();
@@ -54,6 +55,7 @@ let menu = {
       incamt.textContent = "+";
       incamt.classList.add("increase");
       incamt.onclick = function(e) {
+        e.preventDefault();
         e.stopPropagation();
         this.increase(i);
         this.print();
